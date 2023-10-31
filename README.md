@@ -11,10 +11,5 @@ Welcome to my professional portfolio! This portfolio showcases my skills, projec
 
 ## Live Preview
 
-To view my portfolio live, visit [Live Portfolio](https://yourportfolio.com).
+To view my portfolio live, visit [Live Portfolio]([https://yourportfolio.com](https://aswanthkumarp.github.io/dev-portfolio/)).
 
-## Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/your-portfolio.git
