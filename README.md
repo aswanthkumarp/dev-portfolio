@@ -11,5 +11,5 @@ Welcome to my professional portfolio! This portfolio showcases my skills, projec
 
 ## Live Preview
 
-To view my portfolio live, visit [Live Portfolio]([https://yourportfolio.com](https://aswanthkumarp.github.io/dev-portfolio/)).
+To view my portfolio live, visit [Live Portfolio](https://aswanthkumarp.github.io/dev-portfolio/).
 
