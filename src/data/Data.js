@@ -4,7 +4,7 @@ export const data = [
     img: 'https://i.postimg.cc/tCsK5wCK/Screenshot-2023-10-31-160438.png',
     title: 'PollWise',
     desc: 'A Web Polling App built with MERN Stack where polling results can be viewed in realtime',
-    link: 'https://github.com/aswanthkumarp/PollWise-V1.0',
+    link: 'https://pollwise.netlify.app',
     git: 'https://github.com/aswanthkumarp/PollWise-V1.0',
   },
   {
