@@ -2,16 +2,16 @@ import React from 'react';
 
 const Resume = () => {
   return (
-    <div id='resume' className=' container m-auto   mt-16'>
+    <div id='resume' className='container m-auto mt-16'>
       {/* heading */}
       <div data-aos='fade-up' className='relative mb-5'>
-        <h3 className=' text-3xl font-black text-gray-400 sm:text-2xl'>
+        <h3 className='text-3xl font-black text-gray-400 sm:text-2xl'>
           Resume
         </h3>
         <span className='h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block'></span>
       </div>
       <div data-aos='fade-up' className='left flex-1 w-full'>
-        <p className=' text-gray-700 font-medium w-[100%]'>
+        <p className='text-gray-700 font-medium w-[100%]'>
           Here are my experiences and qualifications.
         </p>
       </div>
@@ -20,12 +20,12 @@ const Resume = () => {
         <div className='left flex-1 flex items-center justify-center'>
           <fieldset
             data-aos='zoom-in'
-            className=' w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2'
+            className='w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2'
           >
-            <legend className=' w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500'>
+            <legend className='w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500'>
               Internship
             </legend>
-            <div className=' relative'>
+            <div className='relative'>
               {/* design */}
               <div className='design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] '>
                 <div className='c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500'></div>
@@ -33,17 +33,17 @@ const Resume = () => {
                 <div className='c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500'></div>
               </div>
               {/* design */}
-              <div className=' flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg'>
+              <div className='flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg'>
                 <h1 className='text-[1.4rem] font-semibold sm:text-xl'>
                   Full Stack Web Development (MERN)
                 </h1>
-                <span className=' text-[.9rem] font-semibold text-gray-500 sm:text-base'>
+                <span className='text-[.9rem] font-semibold text-gray-500 sm:text-base'>
                   Entri Elevate Programme, Entri Software Private Ltd
                 </span>
-                <span className=' text-[.9rem] font-semibold text-yellow-500 sm:text-base'>
+                <span className='text-[.9rem] font-semibold text-yellow-500 sm:text-base'>
                   December 2022 - October 2023
                 </span>
-                <p className=' text-[.9rem] text-justify break-words text-gray-500'>
+                <p className='text-[.9rem] text-justify break-words text-gray-500'>
                   During my internship at Entri Software Pvt. Ltd. as part of
                   the Entri Elevate Programme from December 2022 to October
                   2023, I extensively immersed myself in MERN (MongoDB,
@@ -64,14 +64,46 @@ const Resume = () => {
           </fieldset>
         </div>
         <div className='right flex-1 flex items-center justify-center'>
+       
           <fieldset
             data-aos='zoom-in'
-            className=' w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2'
+            className='w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2'
           >
-            <legend className=' w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500'>
+            <legend className='w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500'>
+              Internship
+            </legend>
+            <div className='relative'>
+            
+              {/* design */}
+              <div className='flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg'>
+                <h1 className='text-[1.4rem] font-semibold sm:text-xl'>
+                  Frontend Web Developer
+                </h1>
+                <span className='text-[.9rem] font-semibold text-gray-500 sm:text-base'>
+                  TechPranee, Hyderabad,Telangana,India
+                </span>
+                <span className='text-[.9rem] font-semibold text-yellow-500 sm:text-base'>
+                  February 2024 - Present
+                </span>
+                <p className='text-[.9rem] text-justify break-words text-gray-500'>
+                Proficiently spearheaded the development of a comprehensive clinical trial application utilizing cutting-edge technologies such as React, Material-UI, and Redux Toolkit, underscoring adeptness in modern front-end frameworks and seamless API integration. This endeavor not only showcased prowess in crafting robust solutions but also highlighted a deep understanding of user-centric design principles and industry best practices. Moreover, demonstrated exceptional proficiency in Agile methodologies through rigorous adherence to daily Scrum meetings, fostering an environment of collaboration and innovation. By ensuring streamlined workflows and meticulous attention to detail, the project achieved timely delivery of key milestones, cementing a reputation for reliability and excellence in execution within the Agile framework.
+                </p>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+      
+      <div className='card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-[25%]'>
+        <div className='left flex-1 flex items-center justify-center'>
+        <fieldset
+            data-aos='zoom-in'
+            className='w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2'
+          >
+            <legend className='w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500'>
               Graduation
             </legend>
-            <div className=' relative'>
+            <div className='relative'>
               {/* design */}
               <div className='design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] '>
                 <div className='c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500'></div>
@@ -79,17 +111,17 @@ const Resume = () => {
                 <div className='c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500'></div>
               </div>
               {/* design */}
-              <div className=' flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg'>
+              <div className='flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg'>
                 <h1 className='text-[1.4rem] font-semibold sm:text-xl'>
                   B.Tech, Electronics And Communication
                 </h1>
-                <span className=' text-[.9rem] font-semibold text-gray-500 sm:text-base'>
+                <span className='text-[.9rem] font-semibold text-gray-500 sm:text-base'>
                   Cochin University Of Science And Technology
                 </span>
-                <span className=' text-[.9rem] font-semibold text-yellow-500 sm:text-base'>
+                <span className='text-[.9rem] font-semibold text-yellow-500 sm:text-base'>
                   2015-2019
                 </span>
-                <p className=' text-[.9rem] text-justify text-gray-500'>
+                <p className='text-[.9rem] text-justify text-gray-500'>
                   During my undergraduate studies at the School of Engineering,
                   Cochin University of Science and Technology, which I completed
                   in 2021, I obtained a comprehensive education in Electronics
@@ -108,6 +140,7 @@ const Resume = () => {
             </div>
           </fieldset>
         </div>
+        <div className='right flex-1 flex items-center justify-center'></div>
       </div>
     </div>
   );
